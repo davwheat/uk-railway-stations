@@ -4,10 +4,14 @@ This repository contains several files listing all UK railway stations.
 
 Stations listed are only those that can be queried through the National Rail Darwin API.
 
-The dataset was originally from [Trainline EU's repository](https://github.com/trainline-eu/stations).
+The dataset was originally from [Trainline EU's repository](https://github.com/trainline-eu/stations). The sources they used at listed on their GitHub repository.
 
 ## Contents <!-- omit in toc -->
 
+- [Using the dataset](#using-the-dataset)
+  - [Git submodules](#git-submodules)
+  - [NPM](#npm)
+- [Attribution](#attribution)
 - [Exceptions in data](#exceptions-in-data)
 - [Fields](#fields)
 - [Data files](#data-files)
@@ -15,6 +19,36 @@ The dataset was originally from [Trainline EU's repository](https://github.com/t
   - [JSON](#json)
 - [Contributing](#contributing)
 - [Licence](#licence)
+
+## Using the dataset
+
+### Git submodules
+
+You can clone this Git repository into your own as a 'submodule'. [Learn more about Git submodules.](https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407)
+
+```properties
+git clone https://github.com/davwheat/uk-railway-stations
+```
+
+### NPM
+
+You can also pull the dataset from the NPM registry. The default import is the `stations.json` file, but you can also import the `csv` file.
+
+```
+npm i uk-railway-stations
+yarn add uk-railway stations
+```
+
+```js
+import StationsListJSON from "uk-railway-stations"
+import StationsListCSV from "uk-railway-stations/stations.csv"
+```
+
+## Attribution
+
+Attribution must be provided to myself, Trainline EU, and [their sources](https://github.com/trainline-eu/stations#licence) for this dataset.
+
+This is a limitation of the Open Database License (ODbL). For more info, see [LICENSE](LICENSE).
 
 ## Exceptions in data
 
