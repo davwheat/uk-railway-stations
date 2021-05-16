@@ -58,14 +58,13 @@ Some notable exceptions exist. These are stations/networks that are **not** incl
 
 ## Fields
 
-| Name              | Description                                                                                                        |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `stationName`     | Name of the station as it is locally known.                                                                        |
-| `lat`             | Longitude coordinates as decimal value.                                                                            |
-| `long`            | Latitude coordinates as decimal value.                                                                             |
-| `isAirport`       | Specify if the station is related to an airport.                                                                   |
-| `crsCode`         | The station's [CRS code](https://www.nationalrail.co.uk/stations_destinations/48541.aspx). Unique to each station. |
-| `iataAirportCode` | The [IATA code](https://en.wikipedia.org/wiki/IATA_airport_code) for the airport the station is attached to.       |
+| Name              | Description                                                                                                                   |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `stationName`     | Name of the station as it is locally known.                                                                                   |
+| `lat`             | Longitude coordinates as decimal value.                                                                                       |
+| `long`            | Latitude coordinates as decimal value.                                                                                        |  |
+| `crsCode`         | The station's [CRS code](https://www.nationalrail.co.uk/stations_destinations/48541.aspx). Unique to each station.            |
+| `iataAirportCode` | The [IATA code](https://en.wikipedia.org/wiki/IATA_airport_code) for the airport the station is attached to, if there is one. |
 
 ## Data files
 
