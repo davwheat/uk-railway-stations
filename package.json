@@ -1,6 +1,6 @@
 {
   "name": "uk-railway-stations",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A dataset containing information about all UK railway stations.",
   "main": "stations.json",
   "repository": "https://github.com/davwheat/uk-railway-stations",
