@@ -4,7 +4,7 @@ This repository contains several files listing all UK railway stations.
 
 Stations listed are only those that can be queried through the National Rail Darwin API.
 
-The dataset was originally from [Trainline EU's repository](https://github.com/trainline-eu/stations). The sources they used at listed on their GitHub repository.
+The dataset was originally from [Trainline EU's repository](https://github.com/trainline-eu/stations). The sources they used are listed on their GitHub repository.
 
 ## Contents <!-- omit in toc -->
 
