@@ -9,4 +9,8 @@ def getPath(path):
 
 
 df = pd.read_csv(getPath("../stations.csv"))
-df.to_json(getPath("../stations.json"), orient="records")
+json = df.to_json(orient="records")
+json = json.replace(',"iataAirportCode":null', '')
+
+with open(getPath("../stations.json"), "w") as myfile:
+    myfile.write(json)
