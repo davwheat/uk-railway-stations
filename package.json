@@ -3,12 +3,14 @@
   "version": "1.1.1",
   "description": "A dataset containing information about all UK railway stations.",
   "main": "stations.json",
+  "types": "stations.d.ts",
   "repository": "https://github.com/davwheat/uk-railway-stations",
   "author": "David Wheatley <hi@davwheat.dev>",
   "license": "ODbL-1.0",
   "scripts": {
+    "installDeps": "cd tools && pip3 install -r requirements.txt",
     "build": "yarn build:json",
-    "build:json": "py tools/convertToJson.py",
+    "build:json": "python3 tools/convertToJson.py",
     "prepublishOnly": "yarn build"
   }
 }
