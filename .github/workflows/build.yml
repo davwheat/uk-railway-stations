@@ -1,0 +1,26 @@
+name: Build and deploy
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Python dependencies
+        run: npm run installDeps
+
+      - name: Build formats
+        run: npm run build
+
+      - name: Commit and push changes
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: build other data formats"
+          commit_options: "--no-verify"
