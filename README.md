@@ -78,7 +78,7 @@ The JSON file provided is an array of station objects.
 
 ## Contributing
 
-When making changes, you should **only** perform changes to `stations.csv`. Other files are created via Python scripts in the `tools` folder. (This will be automated in the future.)
+When making changes, you should **only** perform changes to `stations.csv`. When changes are merged into the main branch, the JSON file with be automatically re-generated from this CSV. This single source of truth means that edits to the JSON file will **not** be kept.
 
 ## Licence
 
