@@ -12,5 +12,5 @@
     "build": "yarn build:json",
     "build:json": "python3 tools/convertToJson.py"
   },
-  "packageManager": "yarn@3.6.0"
+  "packageManager": "yarn@3.6.3"
 }
