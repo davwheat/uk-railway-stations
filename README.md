@@ -44,6 +44,14 @@ import StationsListJSON from "uk-railway-stations"
 import StationsListCSV from "uk-railway-stations/stations.csv"
 ```
 
+### Swift Package Manager
+
+The dataset can also be pulled used Swift Package Manager. An extension on `Bundle` is provided to provide convinient access to both `stations.json`, and `stations.csv`. Add the following as a dependency in your `Package.swift`
+
+```
+dependencies: [.product(name: "uk-railway-stations", package: "uk-railway-stations")]
+```
+
 ## Attribution
 
 Attribution must be provided to myself, Trainline EU, and [their sources](https://github.com/trainline-eu/stations#licence) for this dataset.
