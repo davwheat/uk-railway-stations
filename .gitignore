@@ -8,3 +8,5 @@
 !.yarn/versions
 
 node_modules/
+
+.build/
