@@ -11,6 +11,7 @@ The dataset was originally from [Trainline EU's repository](https://github.com/t
 - [Using the dataset](#using-the-dataset)
   - [Git submodules](#git-submodules)
   - [NPM](#npm)
+  - [Swift Package Manager](#swift-package-manager)
 - [Attribution](#attribution)
 - [Exceptions in data](#exceptions-in-data)
 - [Fields](#fields)
@@ -66,13 +67,14 @@ Some notable exceptions exist. These are stations/networks that are **not** incl
 
 ## Fields
 
-| Name              | Description                                                                                                                   |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| `stationName`     | Name of the station as it is locally known.                                                                                   |
-| `lat`             | Longitude coordinates as decimal value.                                                                                       |
-| `long`            | Latitude coordinates as decimal value.                                                                                        |  |
-| `crsCode`         | The station's [CRS code](https://www.nationalrail.co.uk/stations_destinations/48541.aspx). Unique to each station.            |
-| `iataAirportCode` | The [IATA code](https://en.wikipedia.org/wiki/IATA_airport_code) for the airport the station is attached to, if there is one. |
+| Name                 | Description                                                                                                                   |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `stationName`        | Name of the station as it is locally known.                                                                                   |
+| `lat`                | Longitude coordinates as decimal value.                                                                                       |
+| `long`               | Latitude coordinates as decimal value.                                                                                        |
+| `crsCode`            | The station's [CRS code](https://www.nationalrail.co.uk/stations_destinations/48541.aspx). Unique to each station.            |
+| `iataAirportCode`    | The [IATA code](https://en.wikipedia.org/wiki/IATA_airport_code) for the airport the station is attached to, if there is one. |
+| `constituentCountry` | The country the station is in: `england`/`scotland`/`wales`                                                                   |
 
 ## Data files
 
@@ -82,7 +84,7 @@ The CSV file contains a header row, and the columns match the list of fields abo
 
 ### JSON
 
-The JSON file provided is an array of station objects.
+The JSON file provided is an array of station objects, each object will contain the fields as shown above.
 
 ## Contributing
 
