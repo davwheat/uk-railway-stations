@@ -1,6 +1,6 @@
 {
   "name": "uk-railway-stations",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "description": "A dataset containing information about all UK railway stations.",
   "main": "stations.json",
   "types": "stations.d.ts",
