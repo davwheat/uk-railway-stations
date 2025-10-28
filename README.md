@@ -37,12 +37,13 @@ You can also pull the dataset from the NPM registry. The default import is the `
 
 ```
 npm i uk-railway-stations
+pnpm i uk-railway-stations
 yarn add uk-railway stations
 ```
 
 ```js
-import StationsListJSON from "uk-railway-stations"
-import StationsListCSV from "uk-railway-stations/stations.csv"
+import AllStationsJSON from "uk-railway-stations"
+import AllStationsCSV from "uk-railway-stations/stations.csv"
 ```
 
 ### Swift Package Manager
