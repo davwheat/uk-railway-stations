@@ -666,6 +666,7 @@ Dalwhinnie,56.934334,-4.246498,DLW,,scotland
 Danby,54.466068,-0.910704,DNY,,england
 Danescourt,51.505199,-3.23332,DCT,,wales
 Danzey,52.324329,-1.819493,DZY,,england
+Darlaston,52.576380,-2.019530,DAS,,england
 Darlington,54.520462,-1.54732,DAR,,england
 Darnall,53.381084,-1.410661,DAN,,england
 Darsham,52.272812,1.522343,DSM,,england
@@ -1299,6 +1300,7 @@ Kingham,51.902222,-1.629331,KGM,,england
 Kinghorn,56.069389,-3.174161,KGH,,scotland
 Kings Langley,51.70631,-0.438411,KGL,,england
 Kings Lynn,52.754108,0.403475,KLN,,england
+Kings Heath,52.431410,-1.892970,KIH,,england
 Kings Norton,52.413456,-1.933801,KNN,,england
 Kings Nympton,50.935921,-3.905634,KGN,,england
 Kings Park,55.819935,-4.247294,KGP,,scotland
@@ -1555,6 +1557,7 @@ Mauldeth Road,53.432984,-2.209325,MAU,,england
 Maxwell Park,55.837124,-4.289813,MAX,,scotland
 Maybole,55.354485,-4.686269,MAY,,scotland
 Maze Hill,51.482883,0.003311,MZH,,england
+Moseley Village,52.445820,-1.884510,MOV,,england
 Meadowhall,53.417046,-1.411669,MHS,,england
 Meldreth,52.090687,0.00853,MEL,,england
 Melksham,51.379803,-2.14449,MKM,,england
@@ -1823,6 +1826,7 @@ Pluckley,51.156578,0.748571,PLC,,england
 Plumley,53.274809,-2.419615,PLM,,england
 Plumpton,50.929066,-0.060435,PMP,,england
 Plumstead,51.48959,0.082828,PLU,,england
+Pineapple Road,52.429990,-1.909660,PIR,,england
 Plymouth,50.377762,-4.143386,PLY,,england
 Pokesdown,50.731022,-1.82568,POK,,england
 Polegate,50.820934,0.251705,PLG,,england
@@ -2534,6 +2538,7 @@ Winnersh,51.430779,-0.87795,WNS,,england
 Winnersh Triangle,51.437233,-0.895052,WTI,,england
 Winsford,53.190505,-2.494669,WSF,,england
 Wishaw,55.772346,-3.927267,WSH,,scotland
+Willenhall,52.581920,-2.054750,WIA,,england
 Witham,51.805702,0.641373,WTM,,england
 Witley,51.133362,-0.645059,WTY,,england
 Witton,52.51141,-1.883566,WTT,,england
@@ -2598,3 +2603,4 @@ York,53.957966,-1.093159,YRK,,england
 Yorton,52.809009,-2.73645,YRT,,england
 Ystrad Mynach,51.640884,-3.241342,YSM,,wales
 Ystrad Rhondda,51.644478,-3.47557,YSR,,wales
+
