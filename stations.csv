@@ -1120,7 +1120,7 @@ Heath High Level,51.516518,-3.181737,HHL,,wales
 Heath Low Level,51.515606,-3.183163,HLL,,wales
 Heathrow Terminal 4 Rail,51.458214,-0.445447,HAF,LHR,england
 Heathrow Terminal 5 Rail,51.47,-0.48,HWV,LHR,england
-Heathrow Terminals 1-2-3 Rail,51.471,-0.456,HXX,LHR,england
+Heathrow Terminals 2 & 3 Rail,51.471,-0.456,HXX,LHR,england
 Heaton Chapel,53.425556,-2.179046,HTC,,england
 Hebden Bridge,53.737587,-2.009063,HBD,,england
 Heckington,52.977463,-0.29316,HEC,,england
@@ -2239,7 +2239,7 @@ Sturry,51.301018,1.121644,STU,,england
 Styal,53.348137,-2.240313,SYA,,england
 Sudbury & Harrow Road,51.554459,-0.316676,SUD,,england
 Sudbury Hill Harrow,51.558423,-0.336092,SDH,,england
-Sudbury Suffolk,52.035591,0.735111,SUY,,england
+Sudbury (Suffolk),52.035591,0.735111,SUY,,england
 Sugar Loaf,52.082237,-3.686991,SUG,,wales
 Summerston,55.89835,-4.283814,SUM,,scotland
 Sunbury,51.418262,-0.416611,SUU,,england
@@ -2255,7 +2255,7 @@ Sutton Common,51.375519,-0.196799,SUC,,england
 Sutton Parkway,53.122108,-1.236385,SPK,,england
 Swale,51.390434,0.748194,SWL,,england
 Swanley,51.392727,0.16755,SAY,,england
-Swanscombe- George & Dragon,51.449356,0.309854,SWM,,england
+Swanscombe - George & Dragon,51.449356,0.309854,SWM,,england
 Swansea,51.625103,-3.941598,SWA,,wales
 Swanwick,50.875427,-1.265151,SNW,,england
 Sway,50.784454,-1.609864,SWY,,england
@@ -2605,4 +2605,3 @@ York,53.957966,-1.093159,YRK,,england
 Yorton,52.809009,-2.73645,YRT,,england
 Ystrad Mynach,51.640884,-3.241342,YSM,,wales
 Ystrad Rhondda,51.644478,-3.47557,YSR,,wales
-
