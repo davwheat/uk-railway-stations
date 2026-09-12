@@ -1,6 +1,6 @@
 {
   "name": "uk-railway-stations",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "description": "A dataset containing information about all UK railway stations.",
   "main": "stations.json",
   "types": "stations.d.ts",
@@ -12,5 +12,5 @@
     "build": "yarn build:json",
     "build:json": "python3 tools/convertToJson.py"
   },
-  "packageManager": "yarn@4.10.3"
+  "packageManager": "yarn@4.18.0"
 }
