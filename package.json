@@ -4,7 +4,10 @@
   "description": "A dataset containing information about all UK railway stations.",
   "main": "stations.json",
   "types": "stations.d.ts",
-  "repository": "https://github.com/davwheat/uk-railway-stations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davwheat/uk-railway-stations.git"
+  },
   "author": "David Wheatley <hi@davwheat.dev>",
   "license": "ODbL-1.0",
   "scripts": {
